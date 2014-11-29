@@ -1,0 +1,30 @@
+<h2>Edit Product</h2>
+<%= form_for @product do |f| %>
+  <div class='columns wat-cf'>
+    <div class='group wat-cf'>
+      <div class='left'>
+        <%= f.label 'Name *' %>
+      </div>
+      <div class='right'>
+        <%= f.text_field :name %>
+      </div>
+    </div>
+    <div class='group wat-cf'>
+      <div class='left'>
+        <%= f.label 'Amount' %>
+      </div>
+      <div class='right'>
+        <%= f.text_field :amount %>
+      </div>
+    </div>
+    <div class='group wat-cf'>
+      <div class='left'>
+        <%= f.label 'Info' %>
+      </div>
+      <div class='right'>
+        <%= f.text_area :info %>
+      </div>
+    </div>
+    <%= f.submit :class => 'button', :disable_with => "Creating ..." %> or <%= link_to 'Cancel', products_path %>
+  </div>
+<% end %>
