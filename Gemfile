@@ -39,4 +39,4 @@ gem 'capistrano-rails', '~> 1.1.1'
 # gem 'capistrano-rvm', github: "capistrano/rvm"
 
 # To use debugger
-gem 'debugger'
+gem 'byebug'
