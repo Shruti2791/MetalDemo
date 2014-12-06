@@ -10,7 +10,7 @@ development:
   database: metal_demo_dev
   pool: 5
   username: root
-  password:
+  password: shruti
   host: 127.0.0.1
   socket: /tmp/mysql.sock
 
@@ -24,7 +24,7 @@ test:
   database: metal_demo_test
   pool: 5
   username: root
-  password:
+  password: shruti
   host: 127.0.0.1
   socket: /tmp/mysql.sock
 
@@ -35,6 +35,6 @@ production:
   database: metal_demo_production
   pool: 5
   username: root
-  password:
+  password: shruti
   host: 127.0.0.1
   socket: /tmp/mysql.sock

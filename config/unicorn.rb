@@ -1,9 +1,9 @@
 app_folder_name = 'MetalDemo'
-shared_path = "/var/www/apps/#{ app_folder_name }/shared"
+shared_path = "/home/deploy/#{ app_folder_name }/shared"
 
 worker_processes 4
 user 'shruti'
-working_directory "/var/www/apps/#{ app_folder_name }/current"
+working_directory "/home/deploy/#{ app_folder_name }/current"
 preload_app true
 timeout 60
 

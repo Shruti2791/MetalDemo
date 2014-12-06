@@ -1,7 +1,7 @@
 require 'capistrano/setup'
 require 'capistrano/deploy'
 require 'capistrano/bundler'
-require 'capistrano/rails/migrations'
+# require 'capistrano/rails/migrations'
 
 # If you are using rvm add these lines:
 # require 'capistrano/rvm'
